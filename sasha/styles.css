@@ -1,0 +1,58 @@
+/* styles.css */
+
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    background-color: #f9f9f9; /* Light gray background */
+}
+
+/* Navigation menu styles */
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav li {
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #337ab7; /* Blue link color */
+}
+
+nav a:hover {
+    color: #23527c; /* Darker blue link color on hover */
+}
+
+/* Section styles */
+section {
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #fff; /* White background */
+    border: 1px solid #ddd; /* Light gray border */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Soft shadow */
+}
+
+h2 {
+    margin-top: 0;
+}
+
+/* Pokéneko image styles */
+#poke-neko-img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+/* Iframe wrapper styles */
+.iframe-wrapper {
+    padding: 20px;
+    background-color: #fff; /* White background */
+    border: 1px solid #ddd; /* Light gray border */
+}
